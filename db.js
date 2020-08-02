@@ -1,7 +1,7 @@
 const sequelize= require('sequelize')
 const {DataTypes}= require('sequelize')
 
-const db= new sequelize('chatappdb','b02507c95cbc49','d1d3675d',{
+const db= new sequelize('heroku_2663f36e43cfe75','b8fe07dad9b205','8acd1cd3',{
     // host: 'localhost',
     host: 'us-cdbr-east-02.cleardb.com',
     dialect: 'mysql'
